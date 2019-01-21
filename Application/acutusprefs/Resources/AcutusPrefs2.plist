@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Design Settings</string>
+		</dict>
+		
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>com.orangebananaspy.AcutusPrefs/settingschanged</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.orangebananaspy.AcutusPrefs</string>
+			<key>key</key>
+			<string>themeView</string>
+			<key>label</key>
+			<string>Theme</string>
+		</dict>
+		
+		
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.orangebananaspy.AcutusPrefs</string>
+			<key>key</key>
+			<string>mainThemeView</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>PostNotification</key>
+			<string>com.orangebananaspy.AcutusPrefs/settingschanged</string>
+			<key>validValues</key>
+			<array>
+				<string>1</string>			
+				<string>0</string>			
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Clear</string>
+				<string>Space Image</string>				 
+			</array>
+		</dict>
+		
+		
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.orangebananaspy.AcutusPrefs</string>
+			<key>key</key>
+			<string>mainColor</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>PostNotification</key>
+			<string>com.orangebananaspy.AcutusPrefs/settingschanged</string>
+			<key>validValues</key>
+			<array>
+				<string>15</string> 		 
+				<string>14</string> 		 
+				<string>13</string> 		 
+				<string>12</string> 		 
+				<string>11</string> 		 
+				<string>10</string> 		 
+				<string>9</string>			
+				<string>8</string>			
+				<string>7</string>			
+				<string>6</string>			
+				<string>5</string>			
+				<string>4</string>			
+				<string>3</string>			
+				<string>2</string>			
+				<string>1</string>			
+				<string>0</string>			
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Randomize</string>
+				<string>Black</string>			
+				<string>Dark Gray</string>		 
+				<string>Light Gray</string>  
+				<string>White</string>			
+				<string>Gray</string> 		
+				<string>Red</string>	
+				<string>Green</string>			
+				<string>Blue</string> 		
+				<string>Cyan</string>  
+				<string>Yellow</string> 		 
+				<string>Magenta</string>		 
+				<string>Orange</string>  
+				<string>Purple</string> 		 
+				<string>Brown</string>		 
+				<string>Clear</string>		 
+			</array>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Transparency</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.orangebananaspy.AcutusPrefs/settingschanged</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>defaults</key>
+			<string>com.orangebananaspy.AcutusPrefs</string>
+			<key>key</key>
+			<string>alphaMain</string>
+			<key>max</key>
+			<string>1.0</string>
+			<key>min</key>
+			<string>0.0</string>
+			<key>showValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Acutus Design Settings</string>
+</dict>
+</plist>

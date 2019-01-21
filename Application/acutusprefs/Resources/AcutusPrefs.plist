@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Tweak Settings</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.orangebananaspy.AcutusPrefs/settingschanged</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.orangebananaspy.AcutusPrefs</string>
+			<key>key</key>
+			<string>MainEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Turn it off to save battery!</string>
+			<key>label</key>
+			<string>Dimmer Settings</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.orangebananaspy.AcutusPrefs/settingschanged</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.orangebananaspy.AcutusPrefs</string>
+			<key>key</key>
+			<string>DimFunctionEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>More Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Acutus Design Settings</string>
+			<key>isController</key>
+			<true/>
+			<key>detail</key> 		 <string>AcutusPrefs2ListController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Double press home button to activate tweak. 
+
+If you have set an activator for double home button on lockscreen it'll activate that as well with the tweak, so I suggest you disable for now.</string>
+			<key>label</key>
+			<string>Info</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followOnTwitter</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+			<key>label</key>
+			<string>Follow Me</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Acutus</string>
+</dict>
+</plist>

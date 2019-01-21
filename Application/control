@@ -1,0 +1,10 @@
+Package: org.thebigboss.acutus
+Name: Acutus
+Maintainer: BigBoss
+Depends: mobilesubstrate, firmware (>= 7.0), curl
+Conflicts: gsc.ipad
+Version: 1.1
+Architecture: iphoneos-arm
+Description: A quick access to your favourite things right on lockscreen.
+Author: Orangebananaspy
+Section: Tweaks

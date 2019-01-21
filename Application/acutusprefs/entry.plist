@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = AcutusPrefs;
+	cell = PSLinkCell;
+	detail = AcutusPrefsListController;
+	icon = AcutusPrefs.png;
+	isController = 1;
+	label = Acutus;
+    };
+}
