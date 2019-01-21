@@ -1,8 +1,10 @@
 # Acutus
 An iOS jailbreak tweak that gives you easy access to things such as Youtube, Google, Dictionary, Facebook, Twitter, and Instagram straight on your devices lock screen.
 
+<p float="left">
 <img src="http://moreinfo.thebigboss.org/moreinfo/acutus1.jpg" width="20%" height="20%">
 <img src="http://moreinfo.thebigboss.org/moreinfo/acutus3.jpg" width="20%" height="20%">
+</p>
 
 A more in-depth description with images can be found [here](http://cydia.saurik.com/package/org.thebigboss.acutus/)
 
